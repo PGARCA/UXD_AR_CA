@@ -9,6 +9,7 @@ public class ModelPlacer : MonoBehaviour
 {
     public Transform placementIndicator;
     public GameObject selectionUI;
+   
 
     private List<GameObject> model = new List<GameObject>();
     private GameObject curSelected;
@@ -18,6 +19,7 @@ public class ModelPlacer : MonoBehaviour
     {
         cam = Camera.main;
         selectionUI.SetActive(false);
+       
     }
 
     void Update ()
